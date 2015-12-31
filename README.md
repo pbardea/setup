@@ -1,0 +1,13 @@
+#Setup
+
+Automate setting up environment on new machine. Includes:
+1. dotfiles
+  a. .vimrc
+  b. .vim files
+  c. .bash_rc
+  d. .config/fish/...
+  e. .gmvim 
+2. brew + gems that go with it
+3. pip + packages
+4. iTerm/Terminal themes
+5. Look into somehow installing apps
