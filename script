@@ -155,4 +155,8 @@ fi
 
 fancy_echo "Cleaning up old Homebrew formulae ..."
 brew cleanup
+brew cask install google-chrome
+brew cask install dropbox
+brew cask install spotify
+brew cask install macvim
 brew cask cleanup
