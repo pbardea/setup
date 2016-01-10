@@ -159,4 +159,9 @@ brew cask install google-chrome
 brew cask install dropbox
 brew cask install spotify
 brew cask install macvim
+brew cask install seil #app to remap caps lock to esc
+brew cask install atom
+brew cask install cocoarestclient
+brew cask install sublime-text
+brew cask install skype
 brew cask cleanup
