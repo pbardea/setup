@@ -100,6 +100,7 @@ brew_tap 'thoughtbot/formulae'
 brew update
 
 brew_install_or_upgrade 'git'
+brew_install_or_upgrade 'dark-mode'
 brew_install_or_upgrade 'postgres'
 brew_launchctl_restart 'postgresql'
 brew_install_or_upgrade 'redis'
@@ -152,6 +153,9 @@ if [ -f "$HOME/.laptop.local" ]; then
   # shellcheck disable=SC1090
   . "$HOME/.laptop.local"
 fi
+
+# system configuration
+ dark-mode --mode Dark # set dark mode
 
 fancy_echo "Cleaning up old Homebrew formulae ..."
 brew cleanup
