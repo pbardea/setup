@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/usr/share'
-let g:netrw_dirhist_2='/Users/pbardea/.vim'
-let g:netrw_dirhist_3='/Users/pbardea'
-let g:netrw_dirhist_4='/Users/pbardea/.config/fish/functions'
-let g:netrw_dirhist_5='/Users/pbardea/github/iterm/iterm2-borderless'
-let g:netrw_dirhist_6='/Users/pbardea/.config/fish'
